@@ -9,25 +9,6 @@
 </p>
 
 
-**Latest News** 🔥
-
-- [2024/06] We release the **BiGGen-Bench** and **Prometheus 2 BGB (8x7B)**!
-
-  - BiGGen-Bench features 9 core capabilities, 77 tasks, and 765 meticulously crafted instances, each with specific evaluation criteria.
-  - We evaluated 103 frontier language models by 5 state-of-the-art evaluator language models and analyzed the findings in our [paper](https://arxiv.org/abs/2406.05761).
-  - We continually trained Prometheus 2 8x7B on BiGGen-Bench evaluation trace and built our most capable evaluator LM [Prometheus 2 BGB](https://huggingface.co/prometheus-eval/prometheus-bgb-8x7b-v2.0), even surpassing Claude-3-Opus on absolute grading tasks.
-  - Checkout our [dataset](https://huggingface.co/datasets/prometheus-eval/BiGGen-Bench), [evaluation results](https://huggingface.co/datasets/prometheus-eval/BiGGen-Bench-Results), [leaderboard](https://huggingface.co/spaces/prometheus-eval/BiGGen-Bench-Leaderboard), [interactive report](https://hub.zenoml.com/project/c84cfca5-71c9-4f89-aa0e-218c65c821e4/BiGGen\%20Bench\%20Results), and the [code](https://github.com/prometheus-eval/prometheus-eval/tree/main/BiGGen-Bench)!
-
-- [2024/05] We release Prometheus 2 (7B & 8x7B) models!
-
-  - **Prometheus 2 (8x7B)** is an open-source state-of-the-art evaluator language model!
-    - Compared to Prometheus 1 (13B), Prometheus 2 (8x7B) shows improved evaluation performances & supports assessing in pairwise ranking (relative grading) formats as well!
-    - It achieves a Pearson correlation of 0.6 to 0.7 with GPT-4-1106 on a 5-point Likert scale across multiple direct assessment benchmarks, including [VicunaBench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge/data/vicuna_bench), [MT-Bench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge/data/mt_bench), and [FLASK](https://github.com/kaistAI/FLASK). 
-    - It also scores a 72% to 85% agreement with human judgments across multiple pairwise ranking benchmarks, including [HHH Alignment](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/hhh_alignment), [MT Bench Human Judgment](https://huggingface.co/datasets/lmsys/mt_bench_human_judgments), and [Auto-J Eval](https://github.com/GAIR-NLP/auto-j/blob/main/data/test/testdata_pairwise.jsonl). 
-
-  - **Prometheus 2 (7B)** is a lighter version of Prometheus 2 (8x7B) model with reasonable performances (outperforming Llama-2-70B \& on par with Mixtral-8x7B). 
-    - It achieves at least 80% of the evaluation statistics or performances of Prometheus 2 (8x7B) 
-    - It requires only 16 GB of VRAM, making it suitable for running on consumer GPUs.
 
 ## 🔧 Installation
 
