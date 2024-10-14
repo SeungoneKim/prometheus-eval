@@ -185,8 +185,6 @@ feedbacks, scores = judge.relative_grade(
 
 ## 🚀 What's special about Prometheus?
 
-Compared to the Prometheus 1 models, the Prometheus 2 models support both **direct assessment** (absolute grading) and **pairwise ranking** (relative grading). 
-
 You could switch modes by providing a different input prompt format and system prompt. Within the prompt, you should fill in the instruction, response(s), and score rubrics with your own data. Optionally, you could also add a reference answer which leads to better performance!
 
 
