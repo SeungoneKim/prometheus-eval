@@ -4,10 +4,6 @@
 
 <h1 align="center"> BiGGen-Bench </h1>
 
-<a href="https://huggingface.co/datasets/prometheus-eval/BiGGen-Bench"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-ffd21e" alt="Hugging Face Datasets"></a>
-<a href="https://huggingface.co/datasets/prometheus-eval/BiGGen-Bench-Results"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Evaluation Results-red" alt="Hugging Face Datasets"></a>
-<a href="https://huggingface.co/prometheus-eval/prometheus-bgb-8x7b-v2.0"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-ff9d00" alt="Hugging Face Model"></a>
-<a href="https://huggingface.co/spaces/prometheus-eval/BiGGen-Bench-Leaderboard"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Leaderboard-orange" alt="Hugging Face Model"></a>
 
 
 BiGGen-Bench is a dedicated benchmarking platform designed to evaluate the nuanced capabilities of Large Language Models across a variety of complex and diverse tasks.
