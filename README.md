@@ -5,13 +5,6 @@
 <h1 align="center">🔥 Prometheus-Eval 🔥</h1>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2405.01535"><img src="https://img.shields.io/badge/arXiv-2405.01535-b31b1b.svg" alt="arXiv"></a>
-  <a href="https://huggingface.co/prometheus-eval"><img src="https://img.shields.io/badge/Hugging%20Face-Organization-ff9d00" alt="Hugging Face Organization"></a>
-  <a href="https://github.com/prometheus-eval/prometheus-eval/blob/main/LICENSE"><img src="https://img.shields.io/github/license/prometheus-eval/prometheus-eval.svg" alt="License"></a>
-  <a href="https://pypi.org/project/prometheus-eval/"><img src="https://badge.fury.io/py/prometheus-eval.svg" alt="PyPI version"></a>
-</p>
-
-<p align="center">
   ⚡ A repository for evaluating LLMs in generation tasks 🚀 ⚡ <br>
 </p>
 
